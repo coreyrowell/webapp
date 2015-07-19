@@ -6,6 +6,14 @@
 git clone https://github.com/coreyrowell/webapp.git
 ```
 
+# Build Angular Frontend
+```
+cd /src/main/webapp/static/
+npm install
+bower install
+grunt build
+```
+
 # Import pom.xml into IDE
 
 [JDK 8]:http://openjdk.java.net/
