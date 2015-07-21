@@ -6,6 +6,12 @@
 git clone https://github.com/coreyrowell/webapp.git
 ```
 
+# Install Maven Dependencies
+```
+cd webapp
+mvn install
+```
+
 # Build Angular Frontend
 ```
 cd /src/main/webapp/static/
